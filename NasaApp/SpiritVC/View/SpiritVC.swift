@@ -40,7 +40,7 @@ class SpiritVC: UIViewController {
         pickerView.centerXAnchor.constraint(equalTo: vc.view.centerXAnchor).isActive = true
         pickerView.centerYAnchor.constraint(equalTo: vc.view.centerYAnchor).isActive = true
         
-        let alert = UIAlertController(title: "Select Background Colour", message: "", preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: "Select Camera", message: "", preferredStyle: .actionSheet)
         
         alert.popoverPresentationController?.sourceView = spiritPickerView
         alert.popoverPresentationController?.sourceRect = spiritPickerView.bounds
