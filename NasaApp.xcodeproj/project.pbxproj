@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7959D8C827BE5B81002D2080 /* OpportunityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959D8C727BE5B81002D2080 /* OpportunityCollectionViewCell.swift */; };
+		7959D8CA27BE6B3A002D2080 /* PopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959D8C927BE6B3A002D2080 /* PopUpVC.swift */; };
+		79825B1C27B92C4000378066 /* Nasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79825B1B27B92C4000378066 /* Nasa.swift */; };
+		79AC176527B7BE2200245401 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC176427B7BE2200245401 /* HomeRouter.swift */; };
+		79AC176727B7BE2D00245401 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC176627B7BE2D00245401 /* HomeInteractor.swift */; };
+		79AC176927B7BE3400245401 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC176827B7BE3400245401 /* HomePresenter.swift */; };
+		79AC176B27B7BE3C00245401 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC176A27B7BE3C00245401 /* HomeProtocol.swift */; };
+		79AC176E27B7BEED00245401 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 79AC176D27B7BEED00245401 /* Alamofire */; };
+		79AC177127B7BF1900245401 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 79AC177027B7BF1900245401 /* Kingfisher */; };
+		79AC177327B7C7ED00245401 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC177227B7C7EC00245401 /* CollectionViewCell.swift */; };
 		79EAAA9427B6E3AB0096CDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAA9327B6E3AB0096CDA6 /* AppDelegate.swift */; };
 		79EAAA9627B6E3AB0096CDA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAA9527B6E3AB0096CDA6 /* SceneDelegate.swift */; };
-		79EAAA9827B6E3AB0096CDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAA9727B6E3AB0096CDA6 /* ViewController.swift */; };
+		79EAAA9827B6E3AB0096CDA6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAA9727B6E3AB0096CDA6 /* HomeVC.swift */; };
 		79EAAA9B27B6E3AB0096CDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EAAA9927B6E3AB0096CDA6 /* Main.storyboard */; };
 		79EAAA9D27B6E3AC0096CDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EAAA9C27B6E3AC0096CDA6 /* Assets.xcassets */; };
 		79EAAAA027B6E3AC0096CDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EAAA9E27B6E3AC0096CDA6 /* LaunchScreen.storyboard */; };
 		79EAAAAB27B6E3AC0096CDA6 /* NasaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAAAA27B6E3AC0096CDA6 /* NasaAppTests.swift */; };
 		79EAAAB527B6E3AC0096CDA6 /* NasaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAAB427B6E3AC0096CDA6 /* NasaAppUITests.swift */; };
 		79EAAAB727B6E3AC0096CDA6 /* NasaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EAAAB627B6E3AC0096CDA6 /* NasaAppUITestsLaunchTests.swift */; };
+		79F2405327BD2F2D00ED561E /* OpportunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2405227BD2F2D00ED561E /* OpportunityVC.swift */; };
+		79F2405527BD2F4800ED561E /* OpportunityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2405427BD2F4800ED561E /* OpportunityProtocol.swift */; };
+		79F2405727BD2F5500ED561E /* OpportunityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2405627BD2F5500ED561E /* OpportunityInteractor.swift */; };
+		79F2405927BD2F6100ED561E /* OpportunityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2405827BD2F6100ED561E /* OpportunityPresenter.swift */; };
+		79F2405B27BD2F6900ED561E /* OpportunityRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2405A27BD2F6900ED561E /* OpportunityRouter.swift */; };
+		79F2406327BD2FB900ED561E /* SpiritVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2406227BD2FB900ED561E /* SpiritVC.swift */; };
+		79F2406627BD2FCA00ED561E /* SpiritProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2406527BD2FCA00ED561E /* SpiritProtocol.swift */; };
+		79F2406827BD2FD900ED561E /* SpiritInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2406727BD2FD900ED561E /* SpiritInteractor.swift */; };
+		79F2406A27BD2FE000ED561E /* SpiritPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2406927BD2FE000ED561E /* SpiritPresenter.swift */; };
+		79F2406C27BD2FEA00ED561E /* SpiritRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2406B27BD2FEA00ED561E /* SpiritRouter.swift */; };
+		79F2406E27BD4A4700ED561E /* SpiritCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2406D27BD4A4700ED561E /* SpiritCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7959D8C727BE5B81002D2080 /* OpportunityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityCollectionViewCell.swift; sourceTree = "<group>"; };
+		7959D8C927BE6B3A002D2080 /* PopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVC.swift; sourceTree = "<group>"; };
+		79825B1B27B92C4000378066 /* Nasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasa.swift; sourceTree = "<group>"; };
+		79AC176427B7BE2200245401 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		79AC176627B7BE2D00245401 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		79AC176827B7BE3400245401 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		79AC176A27B7BE3C00245401 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		79AC177227B7C7EC00245401 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		79EAAA9027B6E3AA0096CDA6 /* NasaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EAAA9327B6E3AB0096CDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79EAAA9527B6E3AB0096CDA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79EAAA9727B6E3AB0096CDA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79EAAA9727B6E3AB0096CDA6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		79EAAA9A27B6E3AB0096CDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79EAAA9C27B6E3AC0096CDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79EAAA9F27B6E3AC0096CDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +78,17 @@
 		79EAAAB027B6E3AC0096CDA6 /* NasaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EAAAB427B6E3AC0096CDA6 /* NasaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAppUITests.swift; sourceTree = "<group>"; };
 		79EAAAB627B6E3AC0096CDA6 /* NasaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79F2405227BD2F2D00ED561E /* OpportunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityVC.swift; sourceTree = "<group>"; };
+		79F2405427BD2F4800ED561E /* OpportunityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityProtocol.swift; sourceTree = "<group>"; };
+		79F2405627BD2F5500ED561E /* OpportunityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityInteractor.swift; sourceTree = "<group>"; };
+		79F2405827BD2F6100ED561E /* OpportunityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityPresenter.swift; sourceTree = "<group>"; };
+		79F2405A27BD2F6900ED561E /* OpportunityRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityRouter.swift; sourceTree = "<group>"; };
+		79F2406227BD2FB900ED561E /* SpiritVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritVC.swift; sourceTree = "<group>"; };
+		79F2406527BD2FCA00ED561E /* SpiritProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritProtocol.swift; sourceTree = "<group>"; };
+		79F2406727BD2FD900ED561E /* SpiritInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritInteractor.swift; sourceTree = "<group>"; };
+		79F2406927BD2FE000ED561E /* SpiritPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritPresenter.swift; sourceTree = "<group>"; };
+		79F2406B27BD2FEA00ED561E /* SpiritRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritRouter.swift; sourceTree = "<group>"; };
+		79F2406D27BD4A4700ED561E /* SpiritCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79AC177127B7BF1900245401 /* Kingfisher in Frameworks */,
+				79AC176E27B7BEED00245401 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79AC177427B7C7F100245401 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				79AC177227B7C7EC00245401 /* CollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		79EAAA8727B6E3AA0096CDA6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +149,13 @@
 		79EAAA9227B6E3AA0096CDA6 /* NasaApp */ = {
 			isa = PBXGroup;
 			children = (
+				79EAAACF27B6E48A0096CDA6 /* Network */,
+				79F2405C27BD2F8000ED561E /* SpiritVC */,
+				79F2404C27BD2DC200ED561E /* OpportunityVC */,
+				79EAAAC427B6E3DF0096CDA6 /* DetailVC */,
+				79EAAAC327B6E3C30096CDA6 /* HomeVC */,
 				79EAAA9327B6E3AB0096CDA6 /* AppDelegate.swift */,
 				79EAAA9527B6E3AB0096CDA6 /* SceneDelegate.swift */,
-				79EAAA9727B6E3AB0096CDA6 /* ViewController.swift */,
 				79EAAA9927B6E3AB0096CDA6 /* Main.storyboard */,
 				79EAAA9C27B6E3AC0096CDA6 /* Assets.xcassets */,
 				79EAAA9E27B6E3AC0096CDA6 /* LaunchScreen.storyboard */,
@@ -127,6 +181,221 @@
 			path = NasaAppUITests;
 			sourceTree = "<group>";
 		};
+		79EAAAC327B6E3C30096CDA6 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				79EAAAC527B6E3EB0096CDA6 /* Router */,
+				79EAAAC827B6E3FF0096CDA6 /* Presenter */,
+				79EAAAC727B6E3F80096CDA6 /* Interactor */,
+				79EAAAC927B6E4080096CDA6 /* Protocol */,
+				79EAAAC627B6E3F00096CDA6 /* Views */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		79EAAAC427B6E3DF0096CDA6 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				79EAAACE27B6E4450096CDA6 /* Router */,
+				79EAAACD27B6E4400096CDA6 /* Interactor */,
+				79EAAACC27B6E43A0096CDA6 /* Presenter */,
+				79EAAACB27B6E4330096CDA6 /* Protocol */,
+				79EAAACA27B6E42B0096CDA6 /* Views */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		79EAAAC527B6E3EB0096CDA6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				79AC176427B7BE2200245401 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		79EAAAC627B6E3F00096CDA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79AC177427B7C7F100245401 /* Cells */,
+				79EAAA9727B6E3AB0096CDA6 /* HomeVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79EAAAC727B6E3F80096CDA6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				79AC176627B7BE2D00245401 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		79EAAAC827B6E3FF0096CDA6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				79AC176827B7BE3400245401 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		79EAAAC927B6E4080096CDA6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				79AC176A27B7BE3C00245401 /* HomeProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		79EAAACA27B6E42B0096CDA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7959D8C927BE6B3A002D2080 /* PopUpVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79EAAACB27B6E4330096CDA6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		79EAAACC27B6E43A0096CDA6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		79EAAACD27B6E4400096CDA6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		79EAAACE27B6E4450096CDA6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		79EAAACF27B6E48A0096CDA6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				79825B1B27B92C4000378066 /* Nasa.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		79F2404C27BD2DC200ED561E /* OpportunityVC */ = {
+			isa = PBXGroup;
+			children = (
+				79F2405127BD2E6700ED561E /* Router */,
+				79F2405027BD2E6300ED561E /* Presenter */,
+				79F2404F27BD2E5D00ED561E /* Interactor */,
+				79F2404E27BD2E5700ED561E /* Protocol */,
+				79F2404D27BD2E5000ED561E /* Views */,
+			);
+			path = OpportunityVC;
+			sourceTree = "<group>";
+		};
+		79F2404D27BD2E5000ED561E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79F2405227BD2F2D00ED561E /* OpportunityVC.swift */,
+				7959D8C727BE5B81002D2080 /* OpportunityCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79F2404E27BD2E5700ED561E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				79F2405427BD2F4800ED561E /* OpportunityProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		79F2404F27BD2E5D00ED561E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				79F2405627BD2F5500ED561E /* OpportunityInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		79F2405027BD2E6300ED561E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				79F2405827BD2F6100ED561E /* OpportunityPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		79F2405127BD2E6700ED561E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				79F2405A27BD2F6900ED561E /* OpportunityRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		79F2405C27BD2F8000ED561E /* SpiritVC */ = {
+			isa = PBXGroup;
+			children = (
+				79F2406127BD2FA900ED561E /* Router */,
+				79F2406027BD2FA100ED561E /* Presenter */,
+				79F2405F27BD2F9C00ED561E /* Interactor */,
+				79F2405E27BD2F9200ED561E /* Protocol */,
+				79F2405D27BD2F8F00ED561E /* View */,
+			);
+			path = SpiritVC;
+			sourceTree = "<group>";
+		};
+		79F2405D27BD2F8F00ED561E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79F2406227BD2FB900ED561E /* SpiritVC.swift */,
+				79F2406D27BD4A4700ED561E /* SpiritCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79F2405E27BD2F9200ED561E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				79F2406527BD2FCA00ED561E /* SpiritProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		79F2405F27BD2F9C00ED561E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				79F2406727BD2FD900ED561E /* SpiritInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		79F2406027BD2FA100ED561E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				79F2406927BD2FE000ED561E /* SpiritPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		79F2406127BD2FA900ED561E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				79F2406B27BD2FEA00ED561E /* SpiritRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +412,10 @@
 			dependencies = (
 			);
 			name = NasaApp;
+			packageProductDependencies = (
+				79AC176D27B7BEED00245401 /* Alamofire */,
+				79AC177027B7BF1900245401 /* Kingfisher */,
+			);
 			productName = NasaApp;
 			productReference = 79EAAA9027B6E3AA0096CDA6 /* NasaApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +488,10 @@
 				Base,
 			);
 			mainGroup = 79EAAA8727B6E3AA0096CDA6;
+			packageReferences = (
+				79AC176C27B7BEED00245401 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				79AC176F27B7BF1900245401 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 79EAAA9127B6E3AA0096CDA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +535,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79EAAA9827B6E3AB0096CDA6 /* ViewController.swift in Sources */,
+				79AC176B27B7BE3C00245401 /* HomeProtocol.swift in Sources */,
+				79EAAA9827B6E3AB0096CDA6 /* HomeVC.swift in Sources */,
+				79F2405727BD2F5500ED561E /* OpportunityInteractor.swift in Sources */,
+				79F2406E27BD4A4700ED561E /* SpiritCollectionViewCell.swift in Sources */,
+				79AC177327B7C7ED00245401 /* CollectionViewCell.swift in Sources */,
+				79AC176527B7BE2200245401 /* HomeRouter.swift in Sources */,
+				79825B1C27B92C4000378066 /* Nasa.swift in Sources */,
+				7959D8C827BE5B81002D2080 /* OpportunityCollectionViewCell.swift in Sources */,
 				79EAAA9427B6E3AB0096CDA6 /* AppDelegate.swift in Sources */,
+				79AC176927B7BE3400245401 /* HomePresenter.swift in Sources */,
+				79AC176727B7BE2D00245401 /* HomeInteractor.swift in Sources */,
+				79F2405527BD2F4800ED561E /* OpportunityProtocol.swift in Sources */,
+				79F2405927BD2F6100ED561E /* OpportunityPresenter.swift in Sources */,
+				79F2405327BD2F2D00ED561E /* OpportunityVC.swift in Sources */,
+				79F2406C27BD2FEA00ED561E /* SpiritRouter.swift in Sources */,
+				79F2406627BD2FCA00ED561E /* SpiritProtocol.swift in Sources */,
+				79F2406A27BD2FE000ED561E /* SpiritPresenter.swift in Sources */,
+				7959D8CA27BE6B3A002D2080 /* PopUpVC.swift in Sources */,
+				79F2405B27BD2F6900ED561E /* OpportunityRouter.swift in Sources */,
+				79F2406827BD2FD900ED561E /* SpiritInteractor.swift in Sources */,
 				79EAAA9627B6E3AB0096CDA6 /* SceneDelegate.swift in Sources */,
+				79F2406327BD2FB900ED561E /* SpiritVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +894,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79AC176C27B7BEED00245401 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		79AC176F27B7BF1900245401 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79AC176D27B7BEED00245401 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79AC176C27B7BEED00245401 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		79AC177027B7BF1900245401 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79AC176F27B7BF1900245401 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79EAAA8827B6E3AA0096CDA6 /* Project object */;
 }
